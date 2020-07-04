@@ -1,0 +1,62 @@
+
+<html>
+<head>
+<title>FLASH TRANSPORTADORA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="css/lightbox.css" rel="stylesheet" />
+<link href="../dist/css/estilo.css" rel="stylesheet" type="text/css">
+<script src="./js/twitterlib.js"></script>
+
+</head>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+<script type="text/javascript">
+
+
+</script>
+		
+<body>
+    <div id="menu" class="ddsmoothmenu"> 
+    <ul>
+      <li><a href="#" id="start14">Fale Conosco</a></li>
+	 		<div id="shade14"></div>
+    		<div id="modal14"> 
+      <h1 align="center">Fale Conosco </h1>
+     <h2> 
+          <p><font color="#fff">Nossa Empresa fica localizada em<br>
+            AV. ARAGUAIA, Número 07<br>
+            Conceição do Araguaia - PA <br>
+            Contato: <font color="#00FFFF">(91)0000-9999</font><br>
+            Email:<font color="#00FFFF"> FLASH@HOTMAIL.COM</font> </font></p>
+     </h2>
+        <button id="close14" >Fechar</button>
+    </div>
+    <script type="text/javascript">
+            var modal14= document.getElementById('modal14');
+            var shade14= document.getElementById('shade14');
+            document.getElementById('start14').onclick= function() {
+                modal14.style.display=shade14.style.display= 'block';
+            };
+            document.getElementById('close14').onclick= function() {
+                modal14.style.display=shade14.style.display= 'none';
+            };
+
+            // This code is a workaround for IE6's lack of support for the
+            // position: fixed style.
+            //
+            if (!('maxHeight' in document.body.style)) {
+                function modal14size() {
+                    var top= document.documentElement.scrollTop;
+                    var winsize= document.documentElement.offsetHeight;
+                    var docsize= document.documentElement.scrollHeight;
+                  shade14.style.height= Math.max(winsize, docsize)+'px';
+                    modal13.style.top= top+Math.floor(winsize/3)+'px';
+                };
+                modal14.style.position=shade14.style.position= 'absolute';
+                window.onscroll=window.onresize= modal1size;
+                modalsize();
+            }
+        
+        </script> 
+        </ul>
+        </html>
