@@ -1,0 +1,100 @@
+<html>
+    <head>
+        
+        <title> flash express </title>
+         <meta name=“author” content=“ana_clara,luciano,reyanne,sthefany”>
+         <meta name=“keywords” content="transpotadora,rapido">
+         <link rel= "shortcut icon" href="../dist/img/favicon.png" type="x-png"/>
+        <link href="../dist/css/estilo.css" rel="stylesheet" type="text/css">
+        <link rel= "stylesheet" type="text/css" href="font.css"/>
+        <meta charset="UFT-8"/>
+        
+        
+        
+        <style type="text/css">
+             
+          #geral {
+             width:960px;
+             margin: auto;
+
+                   }
+        #cabecalho { 
+             background:white;
+             width:auto;
+             height:auto;
+
+                   }
+       
+        #pag  {
+             background:darkred;
+             width:auto;
+             height: 400;
+             padding: 20px;
+                }
+      #rodape {
+             background:white;
+             width:960;
+             height: 50px;
+                 }
+      #all{
+             background:white;
+             width:280;
+             height: 360;
+             position:relative;
+             }
+            
+</style>
+    </head>
+ <body bgcolor="000">
+      
+     
+     <center>
+        <div id="geral">
+         <div id="cabecalho">
+             <a href="home2.html"><img src="../dist/img/l.png" align="center" width="300" higth="200"></a>
+              <hr HR WIDTH=“100%” color="yellow">
+              <table align="center" width="100%" border="5" bordercolor="yellow" cellpadding="100" cellspacing="200"></table> 
+         
+            </div>
+    <div id="pag" >
+        <script type="text/javascript">
+        function rastreio() {
+
+          var nrastreio = document.getElementsByName('nrastreio')[0].value;
+          if (nrastreio == null ){
+             alert ("Informe um número de rastreio.");
+          }
+          else{alert("Número inválido ou ainda não cadastrado, tente novamente!"); } 
+        }
+                    
+        
+      </script>
+       <div id="all">  
+           <div id="login-inputs">
+                     
+                  <br>
+                  <font color="000" size="5px">Consulte sua remessa</font>
+                  </br>
+                  </br>
+                  <input type="text" placeholder="Número de rastreio" name="nrastreio" size="30px">
+                  
+                </div>
+                 <br>
+                 <div id="enviar">
+                  <input type="button" onclick="rastreio()" class="botao" value="Buscar"><br>
+                 </div>
+              </div>  
+            </div>
+         </div>
+         
+     
+            <table align="center" width="960" border="5" bordercolor="yellow" cellpadding="100" cellspacing="200"></table>    
+    
+            <div id="rodape">
+                <p><font color="000"><h9 class="title">Endereço: </h9> Av Araguaia | Nª 07 | Redenção PA <br>Telefone:(91) 0000-9999 | Email: <a href="#">contato@flashex@hotmail.com</a>
+                </font></p>
+            </div>
+     </center>
+          
+    </body>
+</html>

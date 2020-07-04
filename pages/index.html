@@ -1,0 +1,73 @@
+
+<html>
+    <head>
+        <title> Flash Express </title>
+         <meta name=“author” content=“ana_clara,luciano,reyanne,sthefany”>
+         <meta name=“keywords” content="transpotadora,rapido">
+         <link rel= "shortcut icon" href="../dist/img/favicon.png" type="x-png"/>
+         <link rel= "stylesheet" type="text/css" href="font.css"/>
+         <meta charset="UTF-8"/>
+    
+    </head>
+               
+                
+ <body bgcolor="black">
+     <center>
+        <div id="geral">
+         <div id="cabecalho">
+              <img src="../dist/img/l.png" align="center" width="300" higth="200">
+              <hr HR WIDTH=“100%” color="yellow">
+              <table align="center" width="100%" border="5" bordercolor="yellow" cellpadding="100" cellspacing="200"></table> 
+         
+            </div> <br>
+ <div id="pag" ><br><br><br>
+     <script type="text/javascript">
+        function Login() {
+
+          var usuario = document.getElementsByName('usuario')[0].value;
+          var senha= document.getElementsByName('senha')[0].value;
+          if (usuario=="admin" && senha=="admin") {
+           
+             window.location="home.html";
+          }
+          else { alert("Usuário ou senha incorreto,tente novamente!"); }
+                    }
+      </script>
+          <div id="all">
+            <div id="login-box">
+                  <br>
+                  <font color="000" size="10px">Login</font>
+                  </br>
+                  </br>
+                <div id="login-inputs">
+                  <input type="text" placeholder="Nome de usuário" name="usuario">
+                  <br>
+                  <br>
+                  <input type="password" placeholder="Senha" name="senha">
+                  </br>
+                  </br>
+                </div>
+                 <div id="enviar">
+                  <input type="button" onclick="Login()" class="botao" value="Enviar"><br>
+                 </div>
+              </div>  
+             
+            <p><font color="000" size="6" >ou</font>
+      <br>
+    <br>
+    <a href="Cadastro.html"><button class="btn btn-primary"><font color="000" size="4" >Cadastre-se</font></button></a>
+            </div>
+    
+         
+    
+</div>
+   <table align="center" width="100%" border="5" bordercolor="yellow" cellpadding="100" cellspacing="200"></table>    
+    
+            <div id="rodape">
+                <p><font color="000"><h9 class="title">Endereço: </h9> Av Araguaia | Nª 07 | Redenção PA <br>Telefone:(91) 0000-9999 | Email: <a href="#">contato@flashex@hotmail.com</a>
+                </font></p>
+          </div>
+      </center>
+    </body>
+
+</html>
